@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #00111C;
+}
+
+.icon {
+    position: absolute;
+    width: 111px;
+    height: 121px;
+    left: 585px;
+    top: 27px;
+}
+
+.title {
+    position: absolute;
+    width: 205px;
+    height: 58px;
+    left: 538px;
+    top: 135px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    position: absolute;
+    width: 359px;
+    height: 69px;
+    left: 461px;
+    top: 232px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+input {
+    box-sizing: border-box;
+    width: 359px;
+    height: 39px;
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    position: absolute;
+    left: 461px;
+    top: 344px;
+    margin-top: 30px;
+}
+
+#loginProblem {
+    position: absolute;
+    width: 176px;
+    height: 15px;
+    left: 199px;
+    top: 164px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: rgba(255, 255, 255, 0.28);
+    cursor: pointer;
+}
+
+#loginProblem:hover {
+    text-decoration: underline;
+}
+
+#loginButton {
+    position: absolute;
+    width: 359px;
+    height: 51px;
+    left: 0;
+    top: 210px;
+    background: #00406C;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#loginButton:hover {
+    background: #04538a;
+}
+
+#alreadyAccount {
+    position: absolute;
+    width: 176px;
+    height: 15px;
+    left: 249px;
+    top: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: rgba(255, 255, 255, 0.28);
+    cursor: pointer;
+}
+
+#alreadyAccount:hover {
+    text-decoration: underline;
+}
+
+#signUpButton {
+    position: absolute;
+    width: 359px;
+    height: 51px;
+    left: 0;
+    top: 303px;
+    background: #00406C;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#signUpButton:hover {
+    background: #04538a;
+}
+
+#signUpTitle {
+    left: 525px !important;
+}

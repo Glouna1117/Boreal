@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../resources/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <img src="../../resources/images/icon.png" alt="Logo Boreal" width="62px" height="62px" id="icon">
+        <a class="navigation active" id="playNav" onclick="showPlay()">Jouer</a>
+        <a class="navigation" id="shopNav" onclick="showShop()">Boutique</a>
+        <a class="navigation" id="scoreNav">Classement</a>
+        <a class="navigation" id="betaNav" onclick="showBeta()">Beta Access</a>
+        <img src="../../resources/images/playerHead.png" alt="Tête de joueur" width="34px" height="34px" id="playerNav">
+        <p id="welcomeNav" onclick="showMenu()">Bonjour <span id="playerNameNav">Teyk0oFR</span> <i class="fa-solid fa-chevron-down"></i></p>
+    </nav>
+    <section id="playSection" style="display: block">
+        <img src="../../resources/images/illu1.png" alt="Illustration 1" width="629px" height="699px" id="playIllustration">
+        <span id="playTopBackground">
+            <p id="playTop">Le plus jouer</p>
+        </span>
+        <h1 id="playServeur">Serveur <span id="playServeurName">Skye</span></h1>
+        <div id="playPlatform">
+            <i class="fa-solid fa-laptop playIcon"></i><i class="fa-solid fa-mobile-screen-button playIcon"></i><i class="fa-solid fa-gamepad playIcon"></i>
+        </div>
+        <p id="playDescription">
+            Rejoignez l’aventure BorealMC en crossplay avec <br>
+            toutes les versions du jeu sur le serveur SKYE !
+        </p>
+        <button id="playDownload"><i class="fa-solid fa-download playIcon"></i>Installer</button>
+        <button id="playStats" disabled><i class="fa-solid fa-chart-simple playIcon"></i>Mes stats</button>
+    </section>
+    <section id="shopSection" style="display: none">
+        <img src="../../resources/images/illu2.png" alt="Illustration 2" width="469" height="685" id="shopIllustration">
+        <span id="shopRankBackground">
+            <img src="../../resources/images/etiquette.png" alt="Etiquette" width="112" height="112" id="shopLabel">
+            <h3 id="shopRank">Grades</h3>
+            <p id="shopRankPrice">
+                à partir de <br>
+                5.00€
+            </p>
+        </span>
+        <span id="shopPetBackground">
+            <img src="../../resources/images/famillier.png" alt="Familier" width="118" height="125" id="shopFamily">
+            <h3 id="shopPet">Familier</h3>
+            <p id="shopPetPrice">
+                à partir de <br>
+                2.00€
+            </p>
+        </span>
+        <span id="shopDon">
+            <p id="shopDonText"><i class="fa-regular fa-heart" id="shopDonIcon"></i> Faire un don</p>
+        </span>
+    </section>
+    <section id="betaSection" style="display: none">
+        <img src="../../resources/images/illu3.png" alt="Illustration 3" width="901px" height="800px" id="betaIllustration">
+        <span id="betaTopBackground">
+            <p id="betaTop">Accés anticipé</p>
+        </span>
+        <h1 id="betaServeur">Serveur <span id="betaServeurName">Beta</span></h1>
+        <div id="betaPlatForm">
+            <i class="fa-solid fa-laptop betaIcon"></i><i class="fa-solid fa-mobile-screen-button betaIcon"></i><i class="fa-solid fa-gamepad betaIcon"></i><i class="fa-solid fa-bug betaIcon"></i>
+        </div>
+        <p id="betaDescription">
+            Testez toutes les futures fonctionnalités <br>
+            en avant-première sur le serveur BETA !
+        </p>
+        <button id="betaDownload"><i class="fa-solid fa-download betaIcon"></i>Installer</button>
+    </section>
+
+    <span id="menuCollapse" style="display: none">
+        <a class="menuElement" id="menuSettings">Paramètres</a>
+        <a class="menuElement" id="menuHelp">Besoin d'aide</a>
+        <a class="menuElement" id="menuDisconnect">Déconnexion</a>
+    </span>
+<script src="../../resources/scripts/main.js" defer></script>
+</body>
+</html>

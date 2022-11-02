@@ -1,0 +1,48 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../resources/styles/index.css">
+</head>
+    <body>
+    <img src="../resources/images/icon.png" alt="Boreal Icon" width="111" height="121" class="icon">
+        <section id="signInForm" style="display: block">
+            <h1 class="title">Connexion</h1>
+            <p class="subtitle">Pour pouvoir nous rejoindre<br>vous devez disposer d’un compte<br>sur le site BorealNetwork.</p>
+            <form method="post">
+                <label>
+                    Adresse e-mail<br>
+                    <input type="email" placeholder="Votre adresse e-mail" name="loginEmail">
+                </label><br>
+                <label>
+                    Mot de passe<br>
+                    <input type="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" name="loginPassword">
+                </label>
+                <a id="loginProblem" onclick="setSignUpForm()">Problème de connexion ?</a>
+                <button type="submit" id="loginButton" >Se connecter</button>
+            </form>
+        </section>
+    <section id="signUpForm" style="display: none">
+        <h1 class="title" id="signUpTitle">Inscription</h1>
+        <p class="subtitle">Pour pouvoir nous rejoindre<br>vous devez disposer d’un compte<br>sur le site BorealNetwork.</p>
+        <form method="post">
+            <label>
+                Adresse e-mail<br>
+                <input type="email" placeholder="Votre adresse e-mail" name="signUpEmail">
+            </label><br>
+            <label>
+                Mot de passe<br>
+                <input type="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" name="signUpPassword">
+            </label><br>
+            <label>
+                Confirmation de mot de passe<br>
+                <input type="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" name="SignUpConfirmPassword">
+            </label>
+            <a id="alreadyAccount" onclick="setLoginForm()">Déjà un compte ?</a>
+            <button type="submit" id="signUpButton">S'inscrire</button>
+        </form>
+    </section>
+    <script src="../resources/scripts/index.js" defer></script>
+    </body>
+</html>

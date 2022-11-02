@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #00111C;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+#icon {
+    position: absolute;
+    left: 44px;
+    top: 36px;
+}
+
+.navigation {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #8C9499;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.navigation:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.active {
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+#playNav {
+    left: 196px;
+    top: 58px;
+}
+
+#shopNav {
+    left: 328px;
+    top: 58px;
+}
+
+#scoreNav {
+    left: 491px;
+    top: 58px;
+    cursor: not-allowed;
+}
+
+#betaNav {
+    left: 683px;
+    top: 58px;
+}
+
+#playerNav {
+    box-sizing: border-box;
+    position: absolute;
+    left: 930px;
+    top: 50px;
+    pointer-events: all;
+}
+
+#welcomeNav {
+    position: absolute;
+    left: 974px;
+    top: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#playerNameNav {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#playIllustration {
+    position: absolute;
+    left: 730px;
+    top: 174px;
+}
+
+#playTopBackground {
+    box-sizing: border-box;
+    position: absolute;
+    width: 190px;
+    height: 36px;
+    left: 116px;
+    top: 223px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+#playTop {
+    position: absolute;
+    left: 31px;
+    top: -8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#playServeur {
+    position: absolute;
+    left: 116px;
+    top: 266px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.105em;
+    color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+#playServeurName {
+    color: #FFFFFF;
+}
+
+#playPlatform {
+    position: absolute;
+    left: 116px;
+    top: 343px;
+}
+
+.playIcon {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 13px;
+}
+
+#playDescription {
+    position: absolute;
+    left: 116px;
+    top: 391px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.19%;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+#playDownload {
+    position: absolute;
+    width: 190px;
+    height: 43px;
+    left: 116px;
+    top: 476px;
+    background: #00406C;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#playDownload:hover {
+    background: #04538a;
+}
+
+#playStats {
+    box-sizing: border-box;
+    position: absolute;
+    width: 190px;
+    height: 43px;
+    left: 328px;
+    top: 476px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: none;
+    cursor: not-allowed;
+    pointer-events: all;
+}
+
+#menuCollapse {
+    position: absolute;
+    width: 223px;
+    height: 140px;
+    left: 946px;
+    top: 93px;
+    background: #FFFFFF;
+    box-shadow: 0 0 26px #000000;
+    border-radius: 4px;
+}
+
+.menuElement {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #00111C;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#menuSettings {
+    left: 65px;
+    top: 21px;
+}
+
+#menuHelp {
+    left: 58px;
+    top: 58px;
+}
+
+#menuDisconnect {
+    left: 61px;
+    top: 95px;
+}
+
+#shopIllustration {
+    position: absolute;
+    left: 811px;
+    top: 120px;
+}
+
+#shopRankBackground {
+    position: absolute;
+    display: block;
+    width: 247px;
+    height: 243px;
+    left: 105px;
+    top: 194px;
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to top, #905BFF, #4800E3) border-box;
+    border-radius: 6px;
+    border: 4px solid transparent;
+    cursor: pointer;
+    pointer-events: all;
+}
+#shopRankBackground:hover {
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to bottom, #905BFF, #4800E3) border-box;
+}
+
+#shopLabel {
+    position: absolute;
+    left: 63px;
+    top: -25px;
+}
+
+#shopRank {
+    position: absolute;
+    left: 59px;
+    top: 62px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #905BFF 0%, #4800E3 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#shopRankPrice {
+    position: absolute;
+    left: 47px;
+    top: 119px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#shopPetBackground {
+    position: absolute;
+    display: block;
+    width: 247px;
+    height: 243px;
+    left: 395px;
+    top: 194px;
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to top, #5BFF7F, #79FFC7) border-box;
+    border-radius: 6px;
+    border: 4px solid transparent;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#shopPetBackground:hover {
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to bottom, #5BFF7F, #79FFC7) border-box;
+}
+
+#shopFamily {
+    position: absolute;
+    left: 65px;
+    top: -29px;
+}
+
+#shopPet {
+    position: absolute;
+    left: 51px;
+    top: 62px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #5BFF7F 0%, #79FFC7 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#shopPetPrice {
+    position: absolute;
+    left: 49px;
+    top: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#shopDon {
+    position: absolute;
+    width: 537px;
+    height: 85px;
+    left: 105px;
+    top: 488px;
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to top, #DE5BFF, #E30096) border-box;
+    border-radius: 6px;
+    border: 4px solid transparent;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#shopDon:hover {
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to bottom, #DE5BFF, #E30096) border-box;
+}
+
+#shopDonIcon {
+    font-size: 30px;
+    background: linear-gradient(180deg, #DE5BFF 0%, #E30096 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#shopDonText {
+    position: absolute;
+    left: 126px;
+    top: -6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #DE5BFF 0%, #E30096 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#betaIllustration {
+    position: absolute;
+    left: 490px;
+    top: 5px;
+}
+
+#betaTopBackground {
+    box-sizing: border-box;
+    position: absolute;
+    width: 190px;
+    height: 36px;
+    left: 116px;
+    top: 223px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+#betaTop {
+    position: absolute;
+    left: 31px;
+    top: -8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#betaServeur {
+    position: absolute;
+    left: 116px;
+    top: 266px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.105em;
+    color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+#betaServeurName {
+    color: #FFFFFF;
+}
+
+#betaPlatForm {
+    position: absolute;
+    left: 116px;
+    top: 343px;
+}
+
+.betaIcon {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 13px;
+}
+
+#betaDescription {
+    position: absolute;
+    left: 116px;
+    top: 391px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.19%;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+#betaDownload {
+    position: absolute;
+    width: 190px;
+    height: 43px;
+    left: 116px;
+    top: 476px;
+    background: #00406C;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#betaDownload:hover {
+    background: #04538a;
+}
+
