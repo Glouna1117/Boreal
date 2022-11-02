@@ -519,3 +519,26 @@ body {
     background: #04538a;
 }
 
+#gradesReturn {
+    position: absolute;
+    left: 185px;
+    top: 121px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#gradesIcon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -32px;
+    top: 0px;
+}
+

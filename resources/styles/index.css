@@ -65,10 +65,10 @@ input {
     margin-bottom: 20px;
 }
 
-form {
+#loginForm {
     position: absolute;
     left: 461px;
-    top: 344px;
+    top: 330px;
     margin-top: 30px;
 }
 
@@ -116,12 +116,19 @@ form {
     background: #04538a;
 }
 
+#signUpFormulaire {
+    position: absolute;
+    left: 461px;
+    top: 230px;
+    margin-top: 30px;
+}
+
 #alreadyAccount {
     position: absolute;
     width: 176px;
     height: 15px;
     left: 249px;
-    top: 250px;
+    top: 334px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -141,7 +148,7 @@ form {
     width: 359px;
     height: 51px;
     left: 0;
-    top: 303px;
+    top: 380px;
     background: #00406C;
     border-radius: 4px;
     border: none;

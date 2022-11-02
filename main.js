@@ -18,7 +18,7 @@ const createWindow  = () => {
         }
     })
 
-    window.loadURL("http://127.0.0.1:8000/public/pages/main.html")
+    window.loadURL("http://127.0.0.1:8000/public/index.html")
     window.removeMenu()
     window.openDevTools()
 }
