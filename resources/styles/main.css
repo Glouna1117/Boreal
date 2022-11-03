@@ -542,3 +542,547 @@ body {
     top: 0px;
 }
 
+#aboSorcier {
+    box-sizing: border-box;
+    position: absolute;
+    width: 224px;
+    height: 489px;
+    left: 154px;
+    top: 196px;
+    font-weight: 800;
+    font-size: 32px;
+    border-radius: 6px;
+    border: 4px solid transparent;
+    cursor: pointer;
+    pointer-events: all;
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to top, #C100A2, #450F64) border-box;
+}
+
+#gradesSorcier {
+    position: absolute;
+    left: 54px;
+    top: -17px;
+}
+
+#grades {
+    position: absolute;
+    left: 58px;
+    top: 91px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+#gradesPrice {
+    position: absolute;
+    left: 77px;
+    top: 107px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+.gradesAcces {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.keys {
+    font-size: 20px;
+    background: linear-gradient(180deg, #C100A2 0%, #450F64 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.gradesNoAcces {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: #8C9499;
+}
+
+.noKeys {
+    font-size: 20px;
+    background: #8C9499;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#keysColor {
+    position: absolute;
+    left: 15px;
+    top: 199px;
+}
+
+#gradesColor {
+    position: absolute;
+    left: 40px;
+    top: 179px;
+}
+
+#gradesHome {
+    position: absolute;
+    left: 16px;
+    top: 218px;
+}
+
+#gradesFeed {
+    position: absolute;
+    left: 16px;
+    top: 250px;
+}
+
+#gradesTeleportation {
+    position: absolute;
+    left: 16px;
+    top: 283px;
+}
+
+#gradesCraft {
+    position: absolute;
+    left: 16px;
+    top: 316px;
+}
+
+#gradesHat {
+    position: absolute;
+    left: 16px;
+    top: 348px;
+}
+
+#gradesBack {
+    position: absolute;
+    left: 16px;
+    top: 380px;
+}
+
+#gradeShop {
+    position: absolute;
+    left: 77px;
+    top: 447px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#aboEnchanteur {
+    box-sizing: border-box;
+    position: absolute;
+    width: 224px;
+    height: 489px;
+    left: 413px;
+    top: 196px;
+    font-weight: 800;
+    font-size: 32px;
+    border-radius: 6px;
+    border: 4px solid transparent;
+    cursor: pointer;
+    pointer-events: all;
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to top, #450F64, #7F30BF) border-box;
+}
+
+#gradesEnchanteur {
+    position: absolute;
+    left: 36px;
+    top: -35px;
+}
+
+#gradesE {
+    position: absolute;
+    left: 38px;
+    top: 91px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+#gradesPriceE {
+    position: absolute;
+    left: 68px;
+    top: 107px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+.gradesAccesE {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.keysE {
+    font-size: 20px;
+    background: linear-gradient(180deg, #450F64 0%,#7F30BF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.gradesNoAccesE {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: #8C9499;
+}
+
+.noKeysE {
+    font-size: 20px;
+    background: #8C9499;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#keysParentE {
+    position: absolute;
+    left: 15px;
+    top: 199px;
+}
+
+#gradesParentE {
+    position: absolute;
+    left: 40px;
+    top: 181px;
+}
+
+#gradesHomeE {
+    position: absolute;
+    left: 16px;
+    top: 218px;
+}
+
+#gradesTeleportationE {
+    position: absolute;
+    left: 16px;
+    top: 251px;
+}
+
+#gradesCraftE {
+    position: absolute;
+    left: 16px;
+    top: 283px;
+}
+
+#gradesHatE {
+    position: absolute;
+    left: 16px;
+    top: 315px;
+}
+
+#gradesBackE {
+    position: absolute;
+    left: 16px;
+    top: 348px;
+}
+
+#gradesBetaE {
+    position: absolute;
+    left: 16px;
+    top: 380px;
+}
+
+#gradeShopE {
+    position: absolute;
+    left: 77px;
+    top: 447px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#aboMage {
+    box-sizing: border-box;
+    position: absolute;
+    width: 224px;
+    height: 489px;
+    left: 674px;
+    top: 196px;
+    font-weight: 800;
+    font-size: 32px;
+    border-radius: 6px;
+    border: 4px solid transparent;
+    cursor: pointer;
+    pointer-events: all;
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to top, #450F64, #4500B5) border-box;
+}
+
+#gradesMage {
+    position: absolute;
+    left: 47px;
+    top: -35px;
+}
+
+#gradesM {
+    position: absolute;
+    left: 38px;
+    top: 91px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+#gradesPriceM {
+    position: absolute;
+    left: 68px;
+    top: 107px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+.gradesAccesM {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.keysM {
+    font-size: 20px;
+    background: linear-gradient(180deg, #450F64 0%,#4500B5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.gradesNoAccesM {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: #8C9499;
+}
+
+.noKeys {
+    font-size: 20px;
+    background: #8C9499;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#keysParentM {
+    position: absolute;
+    left: 15px;
+    top: 201px;
+}
+
+#gradesParentM {
+    position: absolute;
+    left: 40px;
+    top: 182px;
+    text-align: left;
+}
+
+#gradesHomeM {
+    position: absolute;
+    left: 16px;
+    top: 240px;
+}
+
+#keysStars {
+    position: absolute;
+    left: 15px;
+    top: 365px;
+}
+
+#gradesAvantageM {
+    position: absolute;
+    left: 40px;
+    top: 350px;
+}
+
+#gradesBackM {
+    position: absolute;
+    left: 16px;
+    top: 275px;
+}
+
+#gradesBetaM {
+    position: absolute;
+    left: 16px;
+    top: 310px;
+}
+
+#gradeShopM {
+    position: absolute;
+    left: 77px;
+    top: 447px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#aboSorcierSupreme {
+    box-sizing: border-box;
+    position: absolute;
+    width: 224px;
+    height: 489px;
+    left: 936px;
+    top: 196px;
+    font-weight: 800;
+    font-size: 32px;
+    border-radius: 6px;
+    border: 4px solid transparent;
+    cursor: pointer;
+    pointer-events: all;
+    background: linear-gradient(#00111C, #00111C) padding-box, linear-gradient(to top, #450F64, #57000A) border-box;
+}
+
+#gradeSS {
+    position: absolute;
+    left: 19px;
+    top: 91px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+#gradesPriceSS {
+    position: absolute;
+    left: 68px;
+    top: 107px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 113.69%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+.gradesAccesSS {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 113.69%;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.keysSS {
+    font-size: 20px;
+    background: linear-gradient(180deg, #450F64 0%,#57000A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#keysParentSS {
+    position: absolute;
+    left: 15px;
+    top: 201px;
+}
+
+#gradesParentSS {
+    position: absolute;
+    left: 40px;
+    top: 183px;
+}
